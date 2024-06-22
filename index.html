@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form_container">
+
+                <h1>PROTIVA PRIVATE PROGRAMME</h1>
+                <input type="text" id="passport" placeholder="Enter your Class Roll">
+                <button id="click" onclick="redirect()">Search</button>
+
+        </div>
+        </div>
+    </div>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: url(img/bk1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .form {
+            background: #fff;
+            padding: 30px;
+            text-align: center;
+            min-height: 187px;
+            box-shadow: 1px -1px 20px white;
+        }        
+        input {
+            display: block;
+            margin: 16px;
+            padding: 12px;
+            font-family: arial;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            width: 90%;
+            background: #ddd;
+            border-radius: 7px;
+        }        
+        h1 {
+            text-align: center;
+            color: black;
+            font-family: arial;
+            font-size: 30px;
+        }
+        button {
+            cursor: pointer;
+            background: #c90c0c;
+            color: white;
+            display: block;
+            margin: 16px;
+            padding: 12px;
+            font-family: arial;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            width: 90%;
+            border-radius: 6px;
+        }
+
+    </style>
+    <script> 
+
+        function redirect(){
+         var test =  document.querySelector('#passport');
+         if(test.value == "E"){
+                 window.location.href= "sahanazJ.html"; 
+         }else if (test.value == "A07735893") {
+            window.location.href= "zillur.html"; 
+         }else if (test.value == "1001"){
+             window.location.href= "444.html";
+         }else if (test.value == "shoaghA"){
+            window.location.href= "shoaghA.html"; 
+         }else if (test.value == "EJ0433966"){
+             window.location.href = "shoagh.html";
+         }else if (test.value =="EH0604756"){
+             window.location.href = "hasanur.html";
+         }else if (test.value == "597752"){
+             window.location.href = "resel.html";
+         }else if (test.value == "EJ0962025"){
+             window.location.href = "khandakar.html";
+         }else if (test.value == "EJ0407535"){
+             window.location.href = "bellal.html";
+         }else if (test.value == "sahanazA"){
+             window.location.href = "sahanazA.html"
+         }else if (test.value == "A07786016"){
+             window.location.href = "sahanz.html"
+         }else if (test.value == "hasanurJ"){
+             window.location.href = "hasanurJ.html"
+         }else if (test.value == "imdadulA"){
+             window.location.href = "imdadulA.html"
+         }else if (test.value == "EJ0137127"){
+             window.location.href = "imdadul.html"
+         }else if (test.value == "Ss"){
+             window.location.href = "ttt.html"
+         }else if (test.value == "A01337485"){
+             window.location.href = "mamun.html"
+         }else if (test.value == "A05881199"){
+             window.location.href = "rana.html"
+         }else if (test.value == "EF0711944"){
+             window.location.href = "hamid.html"
+         }else if (test.value == "A15467228"){
+             window.location.href = "mujibur.html"
+         }else if (test.value == "EH0136875"){
+             window.location.href = "nizam.html"
+         }else if (test.value == "EF0486141"){
+             window.location.href = "matubber.html"
+         }
+             
+
+             
+         else{
+              alert("invalid Passport")
+         }
+
+           }
+    </script>
+
+</body>
+</html>
